@@ -1,6 +1,8 @@
-body{
-    background-color: black;
+body {
+    background-color: white;
+    height: 100vh;
 }
 h1{
-    color: gold;
+    background-color: aliceblue;
+    text-align: center;
 }
