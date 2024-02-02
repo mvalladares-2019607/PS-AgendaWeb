@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     align-items: center;
@@ -32,4 +33,41 @@ form {
 #forgotPassword {
     display: block;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 650px;
+        margin: 0;
+    }
+    section {
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 150px;
+        background-color: #52ACFF;
+        background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+        box-shadow: 2px 2px 2px 2px black;
+        border-radius: 5px;
+        text-align: justify;
+    }
+    .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+ 
+    }
+    form {
+        max-width: 300px;
+        width: 200%;
+        text-align: center;
+    }
+    #forgotPassword {
+        display: block;
+        margin-top: 10px;
+    }
 }
