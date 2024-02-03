@@ -3,15 +3,15 @@ body {
     margin: 0;
     padding: 0;
 }
-
+ 
 nav {
-
+ 
     color: white;
     padding: 15px;
     text-align: center;
     background-color: #52ACFF;
     background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
-
+ 
 }
 nav a {
     color:blue;
@@ -19,32 +19,109 @@ nav a {
     margin: 0 15px;
     font-size: 18px;
   }
-  
+ 
   nav a:hover {
     text-decoration: underline;
   }
-  
+ 
   h1 {
     text-align: center;
     margin-top: 20px;
   }
-
-
-
-
-
-
+ 
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+ 
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+ 
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #555;
+}
+ 
+#task-list {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+ 
+.task {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.task input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+}
+ 
+.task button {
+    margin-left: 10px;
+}
+ 
+ 
+ 
 @media screen and (max-width: 600px) {
     body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
     }
-
+ 
     nav a {
         display: block;
         margin: 5px 0;
     }
-
-
+ 
+    #container {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+ 
+    .task {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+ 
+    .task input[type="text"] {
+        flex: 1;
+        margin-right: 10px;
+    }
+ 
+    .task button {
+        margin-left: 10px;
+    }
 }
