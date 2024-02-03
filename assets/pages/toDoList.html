@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList</title>
     <link rel="stylesheet" href="../styles/styles5.css">
+    <script src="../scripts/script1.js"></script>
 </head>
 <body>
     <nav>
@@ -13,5 +14,19 @@
         <a href="./contactos.html">Lista Contactos</a>
         <a href="./user.html">User</a>
       </nav>
+      <div id="container">
+        <div>
+          <label for="task">Nueva tarea:</label>
+          <input type="text" id="task">
+          <label for="priority">Prioridad:</label>
+          <select id="priority">
+            <option value="alta">Alta</option>
+            <option value="media">Media</option>
+            <option value="baja">Baja</option>
+          </select>
+          <button onclick="addTask()">Agregar</button>
+        </div>
+        <div id="task-list"></div>
+      </div>
 </body>
 </html>
