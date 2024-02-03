@@ -33,3 +33,12 @@ form {
     display: block;
     margin-top: 10px;
 }
+@media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 850px;
+        margin: 0;
+      }
+    }
