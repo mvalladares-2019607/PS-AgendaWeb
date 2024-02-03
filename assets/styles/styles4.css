@@ -44,4 +44,11 @@ background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
         margin: 0;
         padding: 0;
       }
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+      .table {
+        font-size: 14px;
+      }
 }
