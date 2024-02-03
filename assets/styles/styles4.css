@@ -1,3 +1,40 @@
-.card{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    
+    color: white;
+    padding: 15px;
     text-align: center;
+    background-color: #52ACFF;
+background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+
+  }
+  .avatar {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
+  
+  nav a {
+    color:blue;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
