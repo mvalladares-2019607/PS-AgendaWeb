@@ -22,3 +22,11 @@ function editTask(index){
     renderTasks();
   }
 }
+
+function deleteTask(index){
+  const confirmDelete = confirm("¿Deseas eliminar esta tarea?"); 
+  if(confirmDelete){
+    tasks.splice(index, 1);
+    renderTasks();
+  }
+}
