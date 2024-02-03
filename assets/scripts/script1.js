@@ -14,3 +14,11 @@ function addTask() {
     priorityInput.value = "importante";
   }
 }
+
+function editTask(index){
+  const newTask = prompt("Editar tarea:", tasks[index].task);
+  if(newTask !==null){
+    tasks[index].task = newTask.trim();
+    renderTasks();
+  }
+}
